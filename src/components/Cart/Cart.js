@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import CartContext from '/home/siddham/projects/react-winings/src/context/CartContext.js';
+import CartContext from '/home/amlanxbghn/Documents/Repositries/sst-classes/src/context/CartContext.js';
 
 function Cart() {
     const { cart, decreaseQuantity, increaseQuantity } = useContext(CartContext);
